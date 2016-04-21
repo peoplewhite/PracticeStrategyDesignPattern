@@ -12,47 +12,24 @@ class ViewController: UIViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
-    
   }
   
   @IBAction func btnFunctionEatApple(sender: UIButton) {
-    eatApple()
+    let eatApple = EatApple()
+    timeFor(eatApple)
   }
   
   @IBAction func btnFunctionEatFastfood(sender: UIButton) {
-    eatFastfood()
+    let eatFastfood = EatFastfood()
+    timeFor(eatFastfood)
   }
   
-  func eatApple() {
-    washApple()
-    preparePlate()
-    callMyFamily()
-  }
-  func eatFastfood() {
-    preparePlate()
-    callMyFamilyButNoGirlfriend()
+  func timeFor(strategy: Strategy) {
+    strategy.eat()
   }
   
-  func washApple() {
-    print("wash apple")
-  }
-  
-  func preparePlate() {
-    print("prepare plate")
-    
-  }
-  func callMyFamily() {
-    print("call family")
-    
-  }
-  func callMyFamilyButNoGirlfriend() {
-    print("call family without girlfriend")
-    
-  }
   override func didReceiveMemoryWarning() {
     super.didReceiveMemoryWarning()
-    // Dispose of any resources that can be recreated.
   }
-  
 }
 

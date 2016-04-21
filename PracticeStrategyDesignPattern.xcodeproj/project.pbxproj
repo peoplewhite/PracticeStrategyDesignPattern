@@ -12,6 +12,7 @@
 		1480AA011CC8AC85006A10DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1480A9FF1CC8AC85006A10DC /* Main.storyboard */; };
 		1480AA031CC8AC85006A10DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1480AA021CC8AC85006A10DC /* Assets.xcassets */; };
 		1480AA061CC8AC85006A10DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1480AA041CC8AC85006A10DC /* LaunchScreen.storyboard */; };
+		1480AA101CC8D802006A10DC /* Strategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1480AA0F1CC8D802006A10DC /* Strategy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		1480AA021CC8AC85006A10DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1480AA051CC8AC85006A10DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1480AA071CC8AC85006A10DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1480AA0F1CC8D802006A10DC /* Strategy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strategy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				1480A9FB1CC8AC85006A10DC /* AppDelegate.swift */,
 				1480A9FD1CC8AC85006A10DC /* ViewController.swift */,
+				1480AA0F1CC8D802006A10DC /* Strategy.swift */,
 				1480A9FF1CC8AC85006A10DC /* Main.storyboard */,
 				1480AA021CC8AC85006A10DC /* Assets.xcassets */,
 				1480AA041CC8AC85006A10DC /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			files = (
 				1480A9FE1CC8AC85006A10DC /* ViewController.swift in Sources */,
 				1480A9FC1CC8AC85006A10DC /* AppDelegate.swift in Sources */,
+				1480AA101CC8D802006A10DC /* Strategy.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
