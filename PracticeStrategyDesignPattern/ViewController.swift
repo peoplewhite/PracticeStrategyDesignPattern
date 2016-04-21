@@ -12,44 +12,41 @@ class ViewController: UIViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
+    
   }
   
   @IBAction func btnFunctionEatApple(sender: UIButton) {
-    eat("apple")
+    eatApple()
   }
   
   @IBAction func btnFunctionEatFastfood(sender: UIButton) {
-    eat("fastfood")
+    eatFastfood()
   }
   
-  func eat(something: String) {
-    
-    if something == "apple" {
-      
-      wash("apple")
-      preparePlate()
-      callMyFamily()
-      
-    } else if something == "fastfood" {
-      
-      wash("fastfood")
-      preparePlate()
-      callMyFamilyButNoGirlfriend()
-      
-    }
-    
+  func eatApple() {
+    washApple()
+    preparePlate()
+    callMyFamily()
+  }
+  func eatFastfood() {
+    preparePlate()
+    callMyFamilyButNoGirlfriend()
   }
   
-  func wash(something: String) {
-    
+  func washApple() {
+    print("wash apple")
   }
+  
   func preparePlate() {
+    print("prepare plate")
     
   }
   func callMyFamily() {
+    print("call family")
     
   }
   func callMyFamilyButNoGirlfriend() {
+    print("call family without girlfriend")
     
   }
   override func didReceiveMemoryWarning() {
